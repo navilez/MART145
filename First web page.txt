@@ -1,0 +1,14 @@
+<html>
+<head>
+<title> About Nevaeh Avilez </title>
+</head>
+<body>
+<h1> Nevaeh Avilez </h1>
+<h2> Introduction </h2>
+<p> I am from Ennis, Montana and I am currently in my last semester of my business degree. I am currently starting my own leatherworking business. Outside of school and work, I love to rock climb, play board games, and hang out with my family. </p>
+<h2> My pets </h2>
+<p> I love my dog. Her name is Tate and she is a corgi, mini aussie mix. She is sassy and loves to go rock climbing and to cow camp with me. </p>
+
+<img src-"Custom Leather Converse.jpeg">
+<body>
+</html>
