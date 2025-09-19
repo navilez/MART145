@@ -1,0 +1,32 @@
+body {
+	background-color: lightbeige-brown;
+}
+
+h1 {
+	font-family: times new roman;
+	font-size:  25px;
+	color: dark brown;
+	text-align: center;
+	border:  1px black;
+	background-color:  burlywood;
+	height:  40px;
+	border-radius:  10px;
+}
+
+h2 {
+	font-size:  25px;
+	color: brown;
+	text-align: left;
+}
+
+p {
+	font-family: times new roman;
+	font-size: 15px;
+}
+
+img {
+	border:  1px turquoise;
+	border-radius: 25px;
+	background: turquoise;
+	padding: 20px;
+}
