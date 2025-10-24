@@ -8,7 +8,7 @@ h1 {
 	color: dark brown;
 	text-align: center;
 	border:  1px black;
-	background-color:  burlywood;
+	background-color:  white;
 	height:  40px;
 	border-radius:  10px;
 }
@@ -27,6 +27,7 @@ p {
 img {
 	border:  1px turquoise;
 	border-radius: 25px;
-	background: turquoise;
+	background: black;
 	padding: 20px;
 }
+
