@@ -13,55 +13,77 @@
 			font-family: Arial, sans serif;
 			margin: 0;
 			padding: 0;
-			text-align:center;
 		}
-		header{
+		header {
 			background-color: #8b4513;
 			color: #f2e6d0;
-			padding: 40px 20px;
+			padding: 60px 20px;
+			text-align: center;
 		}
+		
 		header h1 {
-			font-family: 'Rye', cursive;
 			font-size: 40px;
-			margin-bottom: 10px;
+			margin: 0 0 10px;
 		}
-		a.button{
-			display: inline-block;
-			background-color:#d4a373;
-			color: #4e342e;
-			padding: 10px 20px;
-			border-radius: 6px;
-			margin-top: 10px;
+
+		header p{
+			font-size:18px;
+			margin:0;
 		}
-		a.button:hover{
-			background-color: #b97d48;
-			color: #fff;
+
+		.project-links {
+			max-width:700px;
+			margin: 40px auto;
+			text-align: center;
 		}
-		.project{
+
+		.project-links a {
+			display: block;
 			background-color: #fff8ef;
 			border: 2px solid #8b4513;
-			border-radius:10px;
-			padding:20px;
-			margin:20px;
+			border-radius: 10px;
+			padding: 15px;
+			margin: 15px auto;
+			width: 80%;
+			max-width: 350px;
+			text-decoration: none;
+			color: #4e342e;
+			font-size: 18px;
+			font-weight: bold;
+			transition: 0.3s ease;
 		}
+
+		project-links a:hover {
+			background-color: #d4a373;
+			color: #fff;
+			transform: translateY(-3px);
+		}
+		
 		footer{
 			background-color: #8b4513;
 			color: #f2e6d0;
-			padding: 10px;
-			margin-top: 40px;
+			text-align: center;
+			padding: 15px;
+			margin-top: 50px;
+			font-size: 14px;
 		}
 	</style>
 </head>
+	
 <body>
-	<h1> Welcome to My Web Design Projects </h1>
-		<p> Hi, I am Nevaeh Avilez. This page links to projects I have completed.</p>
-		<div class="project-links">
+	<header>
+		<h1> Welcome to My Web Design Projects </h1>
+		<p> Hi! I'm Nevaeh Avilez. Explore these projects I have created for MART145 Web Design.</p>
+	</header>
+	
+	<div class="project-links">
 			<a href="project1_5page/index.html">Project 1: 5-Page Website</a>
 			<a href="project2_bootstrap/index.html">Project 2: Bootstrap Website</a>
 			<a href="project3_portfolio/index.html">Project 3: Portfolio</a>
-		</div>
+	</div>
 </body>
 </html>
+
 
 
 
