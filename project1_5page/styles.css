@@ -1,15 +1,17 @@
 body {
-	background-color: lightbeige-brown;
+	background-color: #f5e7d3
+	margin: 0;
+	font-family: "Times New Roman", serif;
 }
 
 h1 {
-	font-family: times new roman;
-	font-size:  25px;
-	color: dark brown;
+	font-family: "Times New Roman", serif;
+	font-size:  30px;
+	color: #4b2e1f;
 	text-align: center;
 	border:  1px black;
 	background-color:  white;
-	height:  40px;
+	padding: 8px;
 	border-radius:  10px;
 }
 
@@ -17,17 +19,23 @@ h2 {
 	font-size:  25px;
 	color: brown;
 	text-align: left;
+	font-family: "Times New Roman", serif;
 }
 
 p {
-	font-family: times new roman;
-	font-size: 15px;
+	font-family: "Times New Roman", serif;
+	font-size: 18px;
+	line-height: 1.6;
 }
 
 img {
-	border:  1px turquoise;
+	border:  1px solid turquoise;
 	border-radius: 25px;
 	background: black;
 	padding: 20px;
+	max-width: 300px;
+	display: block;
+	margin: 20px auto;
 }
+
 
