@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta cherset="UTF-8">
 		<title> Custom Leatherwork </title>
 		<link rel="stylesheet" href="styles.css">
 	
@@ -12,9 +13,6 @@
 			padding: 0;
 			overflow: hidden;
 		}
-		ul {
-	  
-	}
 
 	li {
 	  float: left;
@@ -27,7 +25,7 @@
 	  padding: 14px 16px;
 	  text-decoration: none;
 	  font-size:  20px;
-	  font-family: Times New Roman, sans-serif;
+	  font-family: "Times New Roman", sans-serif;
 	}
 
 	li a:hover {
@@ -35,11 +33,17 @@
 	}
 
 	.headerWrapper {
-		border-style: solid;
-		border-color: black;
+		border: 1px solid black;
 		height:  50px;
+		display: flex;
+		justify-content: space between;
+		align-items: center;
+		padding: 0 10px;
 	}
 
+	.headerWrapper img {
+		height: 48px;
+	}
 	</style>
 	
 </head>
@@ -61,29 +65,29 @@
 		</div>
 		
 		
-		<div style="float:right;">
-			<img src="icons.png">
+		<div>
+			<img src="icons.png" alt="Icons">
 		</div>
-		
-	</div>
 	
 	<br><br>
 
-		</style>
-	</head>
-	
-	<body>
 		<h1> Custom Leatherwork </h1>
+		
 		<h2> Introduction </h2>
 		<p> Custom leatherwork can be a hobby or a business. For me, it started off as a hobby but eventually turned into a business. It is an art - crafting unique pieces while capturing functionality, durability, and personal expression. There are many techniques used to create leather goods- all of which contribute to an artists personal style and product quality. Unlike mass-produced goods, custom leatherwork allows for personalization to make each item meaningful and tailored to the needs of each individual.  </p>
 		
-		<img src="images/customleatherconverse.jpg" alt="Custom tooled leather on blue suede converse" style="display:block; margin:20px auto;max-width:300px;">
+		<img src="images/customleatherconverse.jpg"
+			alt="Custom tooled leather on blue suede converse" 
+			style="display:block; margin:20px auto;max-width:300px;">
 		
 		<h2> Meet The Author </h2>
 		<h3>Nevaeh Avilez</h3>
 		<p> Based in Madison County, Montana. I discovered leathercraft as a passionate hobby that quickly grew into a creative pursuit. I have always admired the timeless beauty of leather - its ability to age gracefully while reflecting craftmanship and artisitc traditions that span thousands of years. Through my work, I strive to share high-quality, hadncrafted products that honor and preserve the rich heritage of Western tradition. </p>
 		
-		<img src="images/madisoncounty.jpg" alt="A stream running through the trees in Madison County, Montana" style="display:block; margin:20px auto;max-width:300px;">
+		<img src="images/madisoncounty.jpg" 
+			alt="A stream running through the trees in Madison County, Montana" 
+			style="display:block; margin:20px auto;max-width:300px;">
+		
 		<h2> Contact Us </h2>
 		<form action="formtarget.html" method="GET">
 			<label for="fname">First name:</label><br>
@@ -95,7 +99,6 @@
 			<input type="submit" value="submit">
 		</form>
 
-		
 	</body>
 
 </html>
