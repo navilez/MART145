@@ -4,6 +4,45 @@ body {
 	font-family: "Times New Roman", serif;
 }
 
+.navbar {
+	width: 180px;
+	background-color: #8b1e1e;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	overflow: auto;
+	padding-top: 20px;
+	box-sizing: border-box:
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar li a {
+	display: block;
+	padding: 20px;
+	color: white;
+	text decoration: none;
+	text-align: center;
+	font-size: 18px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+	background-color: #5c1414;
+}
+
+.content {
+	margin-left: 200px;
+	padding: 30px 40 px;
+	max-width: 900 px;
+	box-sizing: border-box;
+}
+
 h1 {
 	font-family: "Times New Roman", serif;
 	font-size:  30px;
@@ -13,19 +52,25 @@ h1 {
 	background-color:  white;
 	padding: 8px;
 	border-radius:  10px;
+	margin-bottom: 40 px;
 }
 
 h2 {
 	font-size:  25px;
 	color: brown;
-	text-align: left;
-	font-family: "Times New Roman", serif;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
 }
 
 p {
-	font-family: "Times New Roman", serif;
 	font-size: 18px;
 	line-height: 1.6;
+	margin-bottom: 20px;
 }
 
 img {
@@ -36,6 +81,29 @@ img {
 	max-width: 300px;
 	display: block;
 	margin: 20px auto;
+}
+
+form label {
+	display: block;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+form input[type="text"]
+form input[type="email"] {
+	width: 100%
+	max-width: 300px;
+	padding: 8px;
+	box-sizing: border-box;
+	font-family: "Times New Roman", serif;
+	font-size: 16px;
+}
+
+form input[type="submit"] {
+	margin-top: 15px;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
 }
 
 
