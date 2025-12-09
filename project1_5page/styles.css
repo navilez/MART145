@@ -37,7 +37,7 @@ body {
 }
 
 .content {
-	margin-left: 200px;
+	margin-left: 220px;
 	padding: 30px 40 px;
 	max-width: 900 px;
 	box-sizing: border-box;
@@ -105,5 +105,6 @@ form input[type="submit"] {
 	font-size: 16px;
 	cursor: pointer;
 }
+
 
 
